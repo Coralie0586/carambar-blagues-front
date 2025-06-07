@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const jokeAnswer = document.getElementById('joke-answer');
 
    // mon URL Render
-    const API_URL = 'https://carambar-blagues-api.onrender.com/api/v1/blagues/random';
+    const API_URL = 'https://blagues-carambar-api-qo0w.onrender.com/api/v1/blagues/random';
 
     const fetchJoke = async () => {
         jokeQuestion.textContent = 'Chargement de la blague...';
